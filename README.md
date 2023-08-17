@@ -6,19 +6,23 @@ Welcome to the GitHub page for Will Wright's ARGC presentation on open source to
 
 ## Package Installation
 
-We will be using several packages for today's ARGC demonstration on open source tools in Python.
+We will be using several packages for today's demonstration on open source tools in Python.
 
-An easy way to install all the required packages is by using a Python distribution such as Anaconda or Miniconda. In this demo, we will utilize a conda environment to create a contained sandbox that is ready to use for the included Jupyter file.
+An easy way to install all the required packages is by using a Python distribution such as Anaconda or Miniconda. In this demo, we will utilize a conda environment to create a contained "sandbox" that is ready to use for the included Jupyter file.
 
-If you don't have a Python distribution installed locally, please download and install one first. Next, open a terminal or command prompt and navigate to the directory where you cloned this repository. Then, create a new conda environment (which will automatically include all necessary packages) by using the following command:
+1) If you don't have a Python distribution installed locally, please download and install one first.
+2) Next, open a terminal or command prompt and navigate to the directory where you cloned this repository.
+3) Then, create a new conda environment (which will automatically include all necessary packages) by using the following command:
 
 `conda env create -f environment.yml`
 
-This process may take 10-15 minutes to complete, depending on the speed of your network connection. Once the environment is created, you need to activate it. Use the following command in your terminal or command prompt:
+<em>Note:</em> This process may take a few minutes to complete, depending on the speed of your network connection. 
+
+4) Once the environment is created, you need to activate it. Use the following command in your terminal or command prompt:
 
 `conda activate argc-demo`
 
-With the environment activated, you can start a Jupyter server in the same terminal or command prompt window using either of the following commands:
+5) With the 'argc-demo' environment activated, you can start a Jupyter server in the same terminal or command prompt window using either of the following commands:
 
 `jupyter notebook` - or - `jupyter lab`
 
