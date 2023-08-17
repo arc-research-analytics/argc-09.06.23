@@ -4,7 +4,9 @@ channels:
 dependencies:
   - python=3.9
   - pip
-  - jupyter=1.0.0
+  - jupyter
   - pandas
+  - tqdm
+  - streamlit
   - pip:
       - geopandas=0.13.2
