@@ -1,6 +1,6 @@
-# ARGC - Q3 2023
+# ARGC Python Demo
 ## Description
-Welcome to the GitHub page for Will Wright's ARGC presentation on open source tools for geospatial viz! You can access the code by installing and activating a new conda environment for the Jupyter file in this repository.
+Welcome to the GitHub page for Will Wright's ARGC presentation on open source tools for geospatial viz! The demo will walk through how to use Python to create a Streamlit web application for visualizing home sales in Forsyth County.
 
 ## Package Installation
 We will be using several packages for today's ARGC demonstration on open source tools in Python.
@@ -11,9 +11,7 @@ If you don't have a Python distribution installed locally, please download and i
 
 `conda env create -f environment.yml`
 
-This process may take 10-15 minutes to complete, depending on the speed of your network connection.
-
-Once the environment is created, you need to activate it. Use the following command in your terminal or command prompt:
+This process may take 10-15 minutes to complete, depending on the speed of your network connection. Once the environment is created, you need to activate it. Use the following command in your terminal or command prompt:
 
 `conda activate argc-demo`
 
