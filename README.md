@@ -1,6 +1,4 @@
-# ARGC Demo
-
-## Description
+# ARGC Demo // 09.06.23
 
 Welcome to the GitHub page for Will Wright's ARGC presentation on open source tools for geospatial viz! The demo will walk through how to use Python to create a simple Streamlit web app for visualizing home sales in Forsyth County, GA.
 
