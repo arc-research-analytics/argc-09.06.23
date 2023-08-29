@@ -12,7 +12,7 @@ We will be using several packages for the demonstration. To follow along, you wi
 
 `conda env create -f environment.yml`
 
-<em>Note:</em> This process may take a few minutes to complete, depending on the speed of your network connection. 
+<em>Note: This process may take a few minutes to complete, depending on the speed of your network connection.</em> 
 
 4) Once the environment is created, you need to activate it. Use the following command in your terminal or command prompt:
 
