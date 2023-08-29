@@ -30,8 +30,8 @@ Keep in mind JupyterLab is a newer, more feature-rich IDE as compared to the old
 
 You are now ready to code along 😍
 
-## Helpful documentation links
- - [Pandas]([url](https://pandas.pydata.org/docs/index.html)) (data analysis)
+## Documentation links
+ - <a href="[url](https://pandas.pydata.org/docs/index.html)">Pandas</a>
  - Geopandas (geospatial data analysis)
  - Selenium (web browswer automation)
  - Streamlit (building Python web apps)
