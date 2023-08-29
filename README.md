@@ -26,7 +26,7 @@ An easy way to install all the required packages is by using a Python distributi
 
 Keep in mind JupyterLab is a newer, more feature-rich IDE as compared to the older Jupyter Notebook. You can choose either!
 
-At this point, you're all set 🔥😍🖥️
+At this point, you're all set 🔥
 
 ## Documentation links
  - <a href="https://pandas.pydata.org/docs/index.html">Pandas (spatial data analysis)</a>
