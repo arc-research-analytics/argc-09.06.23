@@ -23,10 +23,9 @@ years = st.sidebar.select_slider(
         2019,
         2020,
         2021,
-        2022,
-        2023
+        2022
     ],
-    value=(2020, 2023),
+    value=(2020, 2022),
     help='Filter sales by transaction year.'
 )
 
@@ -42,11 +41,14 @@ else:
 def filter_data():
 
     # read in data
-    df = pd.read_csv('../Data/finalJoined.csv',
+    df = pd.read_csv('Data/Final/FullSet_joined.csv',
                      keep_default_na=False,
                      dtype={
                          'GEOID': str
                      })
+
+    # clean up dataframe
+    df.drop(columns='Unnamed: 0', inplace=True)
 
     # apply filter based on the sidebar slider
     if years[0] != years[1]:
@@ -72,16 +74,10 @@ def map_viz():
                         for i in (0, 2, 4)) for h in colors_hex]
 
     # Run a groupby method on each Census tract
-    # df_grouped = df.groupby('GEOID').agg({
-    #     'price_sf': 'median'
-    # }).reset_index()
-
-    # df = df[['GEOID', 'price_number']]
-
     df_grouped = df.groupby('GEOID')['price_sf'].median().reset_index()
 
     # read in geospatial
-    gdf = gpd.read_file('../Data/ForsythCTs.gpkg',
+    gdf = gpd.read_file('Data/Final/ForsythCTs.gpkg',
                         dtype={
                             'GEOID': str
                         })
@@ -156,3 +152,7 @@ st.dataframe(df, use_container_width=True)
 
 # # render the map to the web app
 # st.pydeck_chart(map_viz(), use_container_width=True)
+
+# Dynamically show the rows and columns that are being filtered in Streamlit.
+st.write(
+    f'The filtered data is returning {df.shape[0]:,} sales.')
