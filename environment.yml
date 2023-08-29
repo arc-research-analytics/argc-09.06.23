@@ -10,3 +10,4 @@ dependencies:
   - streamlit
   - pip:
       - geopandas=0.13.2
+      - selenium=4.11.2
