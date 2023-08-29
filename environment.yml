@@ -9,5 +9,5 @@ dependencies:
   - tqdm
   - streamlit
   - pip:
-      - geopandas=0.13.2
-      - selenium=4.11.2
+      - geopandas==0.13.2
+      - selenium==4.11.2
