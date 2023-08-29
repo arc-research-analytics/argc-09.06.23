@@ -7,6 +7,9 @@ dependencies:
   - jupyter
   - pandas
   - tqdm
+  - folium
+  - matplotlib
+  - mapclassify
   - streamlit
   - pip:
       - geopandas==0.13.2
