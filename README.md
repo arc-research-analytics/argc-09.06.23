@@ -32,6 +32,7 @@ You are now ready to code along 😍
 
 ## Documentation links
  - <a href="https://pandas.pydata.org/docs/index.html" target="_blank">Pandas</a>
+ - <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
  - Geopandas (geospatial data analysis)
  - Selenium (web browswer automation)
  - Streamlit (building Python web apps)
