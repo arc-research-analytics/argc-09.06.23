@@ -31,8 +31,8 @@ Keep in mind JupyterLab is a newer, more feature-rich IDE as compared to the old
 You are now ready to code along 😍
 
 ## Documentation links
- - <a href="https://pandas.pydata.org/docs/index.html" target="_blank">Pandas (spatial data analysis)</a>
- - <a href="https://pandas.pydata.org/docs/index.html" target="_blank">Geopandas (geospatial data analysis)</a>
- - <a href="https://pandas.pydata.org/docs/index.html" target="_blank">Selenium (web browswer automation)</a>
- - <a href="https://pandas.pydata.org/docs/index.html" target="_blank">pydeck (Python mapping libarary)</a>
- - <a href="https://pandas.pydata.org/docs/index.html" target="_blank">Streamlit (building Python web apps)</a>
+ - <a href="https://pandas.pydata.org/docs/index.html">Pandas (spatial data analysis)</a>
+ - <a href="https://geopandas.org/en/stable/">Geopandas (geospatial data analysis)</a>
+ - <a href="https://selenium-python.readthedocs.io/index.html">Selenium (web browswer automation)</a>
+ - <a href="https://pydeck.gl/">pydeck (Python mapping libarary)</a>
+ - <a href="https://streamlit.io/">Streamlit (building Python web apps)</a>
