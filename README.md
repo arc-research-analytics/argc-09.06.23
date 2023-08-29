@@ -32,5 +32,5 @@ At this point, you're all set 🔥
  - <a href="https://pandas.pydata.org/docs/index.html">Pandas (spatial data analysis)</a>
  - <a href="https://geopandas.org/en/stable/">Geopandas (geospatial data analysis)</a>
  - <a href="https://selenium-python.readthedocs.io/index.html">Selenium (web browswer automation)</a>
- - <a href="https://pydeck.gl/">pydeck (Python mapping libarary)</a>
+ - <a href="https://pydeck.gl/">Pydeck (Python mapping libarary)</a>
  - <a href="https://streamlit.io/">Streamlit (building Python web apps)</a>
