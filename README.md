@@ -4,13 +4,11 @@ Welcome to the GitHub page for Will Wright's ARGC presentation on open source to
 
 ## Install virtual environment
 
-We will be using several packages for today's demonstration on open source tools in Python.
-
-An easy way to install all the required packages is by using a Python distribution such as Anaconda or Miniconda. In this demo, we will utilize a conda environment to create a contained "sandbox" that is ready to use for the included Jupyter and Python files.
+We will be using several packages for the demonstration. To follow along, you will need the popular package and environment manager conda, which you can easily get by installing the Python distributions Anaconda (great for beginners) or Miniconda (recommended for more experienced programmers). In this demo, we will utilize a conda environment to create a contained "sandbox" that is ready to use for the included Jupyter and Python files.
 
 1) If you don't have a Python distribution installed locally, please download and install one first.
-2) Next, open a terminal or command prompt and navigate to the directory where you cloned this repository.
-3) Then, create a new conda environment (which will automatically include all necessary packages) by using the following command:
+2) Clone this repo and navitage to it in a terminal or command prompt.
+3) Create a new conda environment (which will automatically include all necessary packages) by using the following command:
 
 `conda env create -f environment.yml`
 
