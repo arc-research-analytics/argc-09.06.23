@@ -29,3 +29,10 @@ An easy way to install all the required packages is by using a Python distributi
 Keep in mind JupyterLab is a newer, more feature-rich IDE as compared to the older Jupyter Notebook. You can choose either!
 
 You are now ready to code along 😍
+
+## Helpful documentation links
+ - [Pandas]([url](https://pandas.pydata.org/docs/index.html)) (data analysis)
+ - Geopandas (geospatial data analysis)
+ - Selenium (web browswer automation)
+ - Streamlit (building Python web apps)
+ - pydeck (Python mapping libarary)
