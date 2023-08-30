@@ -6,7 +6,7 @@ Welcome to the GitHub page for Will Wright's ARGC presentation on open source to
 
 We will be using a variety of Python packages in the demonstration. To follow along, we recommend you create a virtual conda environment using the included `environmnet.yml` file in this repo as shown in the steps below. This creates a contained "sandbox" of tools ready-made for the included Jupyter and Python files.
 
-1) If you don't have conda installed locally, do so using either the popular Anaconda or lighweight Miniconda Python distributions.
+1) If you don't have conda installed locally, do so using either the popular Anaconda (link <a href="https://www.anaconda.com/">here</a>) or lighweight Miniconda (link <a href="https://docs.conda.io/en/latest/miniconda.html">here</a>) Python distributions.
 2) Clone this repo and navitage to it via terminal or command prompt.
 3) Create a new conda environment (which will automatically include all necessary Python packages) by executing the following bash command:
 `conda env create -f environment.yml` <em>Note: This process may take a few minutes to complete, depending on the speed of your network connection.</em> 
