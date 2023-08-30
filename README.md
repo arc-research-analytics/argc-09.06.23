@@ -13,7 +13,7 @@ We will be using a variety of Python packages in the demonstration. To follow al
 
 5) Once the environment is created, activate it by running the following command: `conda activate argc-demo`
 
-6) Set up a new Jupyter kernel corresponding to the environment you just created. Unfortunately, conda no longer automatically sets up environments as Jupyter kernels, so you have to do this manually. Never fear, it's not hard. Simply run the following command:
+6) Set up a new Jupyter kernel corresponding to the environment you just created. Unfortunately, conda no longer automatically sets up environments as Jupyter kernels, so you have to do this manually. Never fear, it's easy. Simply run the following command:
 `python -m ipykernel install --user --name argc-demo`
 
 7) With the 'argc-demo' environment activated, you can start a Jupyter server in the same terminal or command prompt window using either of the following commands:
